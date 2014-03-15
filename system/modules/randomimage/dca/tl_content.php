@@ -22,6 +22,12 @@ $GLOBALS['TL_DCA']['tl_content']['fields']['randomSRC'] = array
     'label'           => &$GLOBALS['TL_LANG']['tl_content']['randomSRC'],
     'exclude'         => true,
     'inputType'       => 'fileTree',
-    'eval'            => array('fieldType' => 'radio', 'files' => false, 'mandatory' => true, 'tl_class' => 'clr'),
+    'eval'            => array
+    (
+        'fieldType'   => 'radio',
+        'files'       => false,
+        'mandatory'   => true,
+        'tl_class'    => 'clr'
+    ),
     'sql'             => 'blob NULL'
 );
